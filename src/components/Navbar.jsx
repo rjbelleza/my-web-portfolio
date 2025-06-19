@@ -1,14 +1,15 @@
+import DarkModeToggle from "./DarkModeToggle.jsx";
 
 const Navbar = () => {
     const navs = [
         'Home',
         'About Me',
-        'Works',
+        'Projects',
         'Contact'
     ];
 
     return (
-        <div className="flex justify-around items-center h-[45px] w-[50%] dark:bg-foreground rounded-full dark:text-primary-foreground">
+        <div className="flex gap-15 items-center h-full dark:text-primary">
             {navs.map((nav, index) => (
                 <a
                     href="#"
@@ -18,6 +19,7 @@ const Navbar = () => {
                     {nav}
                 </a>
             ))}
+            <DarkModeToggle />
         </div>
     );
 }
