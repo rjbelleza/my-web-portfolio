@@ -1,15 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router"
-import Home from "./pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import { DarkModeProvider } from "./contexts/DarkModeContext";
 
 function App() {
-
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <DarkModeProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </DarkModeProvider>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
