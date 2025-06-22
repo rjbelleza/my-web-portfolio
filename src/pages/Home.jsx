@@ -1,5 +1,4 @@
-import DarkModeToggle from "../components/DarkModeToggle";
-import Header from "../Layouts/Header.jsx";
+import Header from "../layouts/Header.jsx";
 
 const Home = () => {
 
