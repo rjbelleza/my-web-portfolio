@@ -10,9 +10,9 @@ const DarkModeToggle = () => {
             className="cursor-pointer"
         >
             {!isDark ? (
-                <Moon color="skyblue" />
+                <Moon className="text-muted-foreground" />
             ) : (
-                <Sun color="skyblue" />
+                <Sun className="text-muted-foreground" />
             )}
         </button>
     );

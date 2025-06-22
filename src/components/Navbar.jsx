@@ -9,7 +9,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="flex gap-15 items-center h-full dark:text-primary">
+        <div className="flex gap-15 items-center h-full">
             {navs.map((nav, index) => (
                 <a
                     href="#"
@@ -19,7 +19,6 @@ const Navbar = () => {
                     {nav}
                 </a>
             ))}
-            <DarkModeToggle />
         </div>
     );
 }
