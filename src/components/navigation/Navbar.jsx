@@ -1,6 +1,6 @@
 import { clsx } from "clsx";
-import { NavBtnActive } from "../lib/activeState.js";
-import { navs } from "../lib/definitions.jsx";
+import { NavBtnActive } from "../../lib/activeState.js";
+import { navs } from "../../lib/definitions.jsx";
 
 const Navbar = () => {
 

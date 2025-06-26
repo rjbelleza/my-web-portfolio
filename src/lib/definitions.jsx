@@ -12,7 +12,7 @@ export const navs = [
               />
     },
     {
-        name: 'About Me',
+        name: 'About',
         path: '/about',
         icon: <BookUserIcon
                 size={20}
