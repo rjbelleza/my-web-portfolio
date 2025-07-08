@@ -3,7 +3,7 @@ import PortfolioBtn from "../buttons/PortfolioBtn.jsx";
 const Tagline = () => {
 
     return (
-        <div className="w-full text-primary space-y-10 px-5">
+        <div className="w-full text-primary space-y-5 px-5">
             <p className="text-2xl">
                 Hello There!
             </p>
